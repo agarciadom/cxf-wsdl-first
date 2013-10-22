@@ -19,10 +19,8 @@ public class PersonImpl implements Person {
 		LOG.info("Executing operation getPerson");
 		System.out.println(personId.value);
 		try {
-			java.lang.String ssnValue = "";
-			ssn.value = ssnValue;
-			java.lang.String nameValue = "";
-			name.value = nameValue;
+			ssn.value = "foo";
+			name.value = "yay";
 		} catch (java.lang.Exception ex) {
 			ex.printStackTrace();
 			throw new RuntimeException(ex);
