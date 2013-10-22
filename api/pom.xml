@@ -13,7 +13,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Person WS :: API</name>
-    <description>Remote interface and data types for the Hello WS</description>
+    <description>Remote interface and data types for the Person WS</description>
 
     <dependencies>
         <dependency>
